@@ -39,7 +39,7 @@ public class ActualMessage extends Message {
 
 	/**
 	 * Getter for messageType
-	 * @return the messageType.
+	 * @return byte: the messageType.
 	 */
 	public byte getMessageType() {
 		return messageType;
@@ -47,7 +47,7 @@ public class ActualMessage extends Message {
 
 	/**
 	 * Getter for messagePayload
-	 * @return the messagePayload.
+	 * @return byte[]: the messagePayload.
 	 */
 	public byte[] getMessagePayload() {
 		return messagePayload;
