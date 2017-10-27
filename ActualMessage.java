@@ -1,5 +1,5 @@
 /**
- *Extension of base abstract message class into actual message.
+ * Extension of base abstract message class into actual message.
  */
 
 import java.nio.ByteBuffer;	//Makes it really easy to fill the message byte array with the right information.
@@ -10,17 +10,17 @@ public class ActualMessage extends Message {
 	private byte[] messagePayload;	//Note: not every message has a payload
 
         /**
-         *Constructor. Composes message and sets messageType and messagePayload to the inputted ones.
-         *messagePayload may be empty.
+         * Constructor. Composes message and sets messageType and messagePayload to the inputted ones.
+         * messagePayload may be empty.
          *
-         *Composition of actual message is as follows:
-         *Bytes 0-4 (4 bytes): message length.
-	 *Byte 5 (1 byte): messageType.
-	 *Bytes 6+ (Variable number of bytes): Optional messagePayload.
-	 *Variable total of bytes.
+         * Composition of actual message is as follows:
+         * Bytes 0-4 (4 bytes): message length.
+	 * Byte 5 (1 byte): messageType.
+	 * Bytes 6+ (Variable number of bytes): Optional messagePayload.
+	 * Variable total of bytes.
 	 *
-	 *@param messageType: the type of message. Possible values of 0-7.
-         *@param messagePayload: the message payload. Not all messages have one.
+	 * @param messageType: the type of message. Possible values of 0-7.
+         * @param messagePayload: the message payload. Not all messages have one.
          */
 	public ActualMessage(byte messageType, byte[] messagePayload) {
 		
