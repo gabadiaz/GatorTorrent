@@ -9,16 +9,16 @@ public class HandshakeMessage extends Message {
 	private int peerID;	//Sender's peerID
 
 	/**
-     *Constructor. Composes message and sets peerID to inputted peerID.
-     *
-     *Composition of handshake message is as follows:
-     *Bytes 0-17 (18 bytes): the handshake header which is P2PFILESHARINGPROJ.
-     *Bytes 18-27 (10 bytes): 0.
-     *Bytes 28-31 (4 bytes): peerID.
-     *Total of 32 bytes.
-     *
-     *@param peerID: the sender's peerID
-     */
+         * Constructor. Composes message and sets peerID to inputted peerID.
+         *
+         * Composition of handshake message is as follows:
+         * Bytes 0-17 (18 bytes): the handshake header which is P2PFILESHARINGPROJ.
+         * Bytes 18-27 (10 bytes): 0.
+         * Bytes 28-31 (4 bytes): peerID.
+         * Total of 32 bytes.
+         *
+         * @param peerID: the sender's peerID
+         */
 	public HandshakeMessage(int peerID) {
 		
 		ByteBuffer bb = ByteBuffer.allocate(32);
@@ -35,7 +35,7 @@ public class HandshakeMessage extends Message {
 
 	/**
 	 * Getter for peerID
-	 *@return the peerID, stored in the message, of the message sender.
+	 * @return int: the peerID, stored in the message, of the message sender.
 	 */
 	public int getPeerID() {
 		return peerID;
