@@ -72,7 +72,7 @@ public class MessageHandler{
 	public static void choke(DataOutputStream outputData){
 
 		byte messageType = 0;
-		byte[] payload = new byte[0]
+		byte[] payload = new byte[0];
 
 		Message chokeMessage = new actualMessage( messageType, payload);
 
