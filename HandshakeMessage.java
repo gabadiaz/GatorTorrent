@@ -1,5 +1,5 @@
 /**
- *Extension of base abstract message class into handshake message.
+ * Extension of base abstract message class into handshake message.
  */
 
 import java.nio.ByteBuffer;	//Makes it really easy to fill the message byte array with the right information.
