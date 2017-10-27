@@ -70,7 +70,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for numberOfPreferredNeighbors.
-	 *@return the numberOfPreferredNeighbors.
+	 *@return int: the numberOfPreferredNeighbors.
 	 */
 	public int getNumberOfPreferredNeighbors() {
 		return numberOfPreferredNeighbors;
@@ -78,7 +78,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for unchokingInterval.
-	 *@return the unchokingInterval.
+	 *@return int: the unchokingInterval.
 	 */
 	public int getUnchokingInterval() {
 		return unchokingInterval;
@@ -86,7 +86,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for optimisticUnchokingInterval.
-	 *@return the optimisticUnchokingInterval.
+	 *@return int: the optimisticUnchokingInterval.
 	 */
 	public int getOptimisticUnchokingInterval() {
 		return optimisticUnchokingInterval;
@@ -94,7 +94,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for fileName.
-	 *@return the fileName.
+	 *@return String: the fileName.
 	 */
 	public String getFileName() {
 		return fileName;
@@ -102,7 +102,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for fileSize.
-	 *@return the fileSize.
+	 *@return int: the fileSize.
 	 */
 	public int getFileSize() {
 		return fileSize;
@@ -110,7 +110,7 @@ public class CommonCfg {
 
 	/**
 	 *Getter for pieceSize.
-	 *@return the pieceSize.
+	 *@return int: the pieceSize.
 	 */
 	public int getPieceSize() {
 		return pieceSize;
