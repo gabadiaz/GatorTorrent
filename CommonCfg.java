@@ -1,5 +1,5 @@
 /**
- *This class reads Common.cfg and records the variables.
+ * This class reads Common.cfg and records the variables.
  */
 
 import java.io.BufferedReader;
@@ -15,7 +15,7 @@ public class CommonCfg {
 	private int pieceSize;
 
 	/**
-	 *Constructor. Reads the file and stores the variables.
+	 * Constructor. Reads the file and stores the variables.
 	 */
 	public CommonCfg() {
 
@@ -57,7 +57,7 @@ public class CommonCfg {
 	}
 
 	/**
-	 *Prints out the recorded variables. Used for testing.
+	 * Prints out the recorded variables. Used for testing.
 	 */
 	public void printSettingsForTesting() {
 		System.out.println(numberOfPreferredNeighbors);
@@ -69,48 +69,48 @@ public class CommonCfg {
 	}
 
 	/**
-	 *Getter for numberOfPreferredNeighbors.
-	 *@return int: the numberOfPreferredNeighbors.
+	 * Getter for numberOfPreferredNeighbors.
+	 * @return int: the numberOfPreferredNeighbors.
 	 */
 	public int getNumberOfPreferredNeighbors() {
 		return numberOfPreferredNeighbors;
 	}
 
 	/**
-	 *Getter for unchokingInterval.
-	 *@return int: the unchokingInterval.
+	 * Getter for unchokingInterval.
+	 * @return int: the unchokingInterval.
 	 */
 	public int getUnchokingInterval() {
 		return unchokingInterval;
 	}
 
 	/**
-	 *Getter for optimisticUnchokingInterval.
-	 *@return int: the optimisticUnchokingInterval.
+	 * Getter for optimisticUnchokingInterval.
+	 * @return int: the optimisticUnchokingInterval.
 	 */
 	public int getOptimisticUnchokingInterval() {
 		return optimisticUnchokingInterval;
 	}
 
 	/**
-	 *Getter for fileName.
-	 *@return String: the fileName.
+	 * Getter for fileName.
+	 * @return String: the fileName.
 	 */
 	public String getFileName() {
 		return fileName;
 	}
 
 	/**
-	 *Getter for fileSize.
-	 *@return int: the fileSize.
+	 * Getter for fileSize.
+	 * @return int: the fileSize.
 	 */
 	public int getFileSize() {
 		return fileSize;
 	}
 
 	/**
-	 *Getter for pieceSize.
-	 *@return int: the pieceSize.
+	 * Getter for pieceSize.
+	 * @return int: the pieceSize.
 	 */
 	public int getPieceSize() {
 		return pieceSize;
